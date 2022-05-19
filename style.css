@@ -1,0 +1,49 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #1E90FF;
+    height: 150px;
+   
+    
+}
+h1{ margin-top: 50px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+}
+.container-fluid{
+    background-color: cyan;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.card{
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    padding: 30px;
+    margin-right:10px; 
+    margin-top: 10px;
+}
+.card-body{
+    background-color: #1E90FF;
+}
+.card-img-top{
+    height: 150px;
+    width: 150px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button{
+    background-color: cyan;
+}
+a:link{
+    color: black;
+}
